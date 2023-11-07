@@ -1,0 +1,51 @@
+/* write your css code */
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-style: 'roboto';
+  font-size: 35px;
+}
+.outercontainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #edd7c2;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.mostOuter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgStyle {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+.innerContainer {
+  width: 85vw;
+}
+.repoDetailsContainer {
+  margin-left: 15px;
+}
+.reponame {
+  font-size: 35px;
+  font-family: 'roboto';
+}
+.repodes {
+}
+.starsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.star1 {
+  border: 1px solid;
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 10px 15px 10px 15px;
+}
+.starCont {
+  margin: 0;
+}
